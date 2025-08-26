@@ -41,15 +41,11 @@ View Receipt: −17.6% drop (post-payment, UX issue)
 
 📸 Dashboard & Report Preview
 
-🔹 Success Rate Trend
-
-🔹 User Journey analysis
-
-🔹Error Breakdown by Category
-
-🔹 App Version & Gateway Impact
-
-🔹 PowerPoint Storyline
+- Success Rate Trend
+- User Journey analysis
+- Error Breakdown by Category
+- App Version & Gateway Impact
+- PowerPoint Storyline
 
 Key slides: Problem Definition → Objectives → Error Analysis → Insights → Short-term Solutions.
 
