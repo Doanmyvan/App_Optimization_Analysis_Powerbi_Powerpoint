@@ -2,7 +2,7 @@
 
 📌 Project Overview
 
-This project analyzes the decline in bill payment success rate on an e-wallet app since August 2025, using transactional, session, event log, and error data.
+This project analyzes the decline in bill payment success rate on an e-wallet app since August 2023, using transactional, session, event log, and error data.
 The analysis applied the MECE framework to break down the payment journey (authentication, gateway, app version, user flow) and identify the most critical failure points.
 
  Power BI was using for calculation and chart creation, and a PowerPoint report for business storytelling.
