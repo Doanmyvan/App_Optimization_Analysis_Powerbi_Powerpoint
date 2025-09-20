@@ -27,11 +27,26 @@ Use MECE (Mutually Exclusive, Collectively Exhaustive) to split the problem into
 Select Payment Type → Enter Amount: −17% drop.
 View Receipt: −17.6% drop (post-payment, UX issue)
 - Error Drivers:
-    1. Wallet balance failures up +6.08%, led by insufficient balance and limit exceedance.
-    2. Authenticator errors (3D Secure timeout & invalid OTP) = >75% of authentication failures.
+   1. Wallet balance failures up +6.08%, led by insufficient balance and limit exceedance.
+   2. Authenticator errors (3D Secure timeout & invalid OTP) = >75% of authentication failures.
    3. API timeouts peaked at midnight & off-peak hours, not just high traffic periods.
    4. App version 3.9.6–3.9.9 showed consistent declines in success, with rising partner errors.
    4. Gateway downtime surged 0.32% → 0.72% in late August.
+ 
+  ## ✅ Recommendations
+
+- Balance & Limit Alerts – Real-time notifications before payment (e.g., balance < $50).
+- UX Optimization – Simplify payment type selection flow to reduce drop-offs.
+- Authentication Fixes – Introduce Smart OTP / email OTP to reduce 3D Secure failures.
+- Gateway Reliability – Deploy backup servers to avoid single points of failure.
+- App Version QA – Strengthen regression testing before release to prevent sharp declines.
+
+## 🌍 Use Cases
+
+- Product Managers – Prioritize fixes by business impact.
+- Engineering Teams – Address API & authenticator stability.
+- Operations & Risk – Manage partner downtime and wallet funding errors.
+- Executives – Understand financial & customer experience risks.
 
 ## 🛠️ Tools & Methodology
 
@@ -48,18 +63,3 @@ View Receipt: −17.6% drop (post-payment, UX issue)
 - PowerPoint Storyline
 
 Key slides: Problem Definition → Objectives → Error Analysis → Insights → Short-term Solutions.
-
-## ✅ Recommendations
-
-- Balance & Limit Alerts – Real-time notifications before payment (e.g., balance < $50).
-- UX Optimization – Simplify payment type selection flow to reduce drop-offs.
-- Authentication Fixes – Introduce Smart OTP / email OTP to reduce 3D Secure failures.
-- Gateway Reliability – Deploy backup servers to avoid single points of failure.
-- App Version QA – Strengthen regression testing before release to prevent sharp declines.
-
-## 🌍 Use Cases
-
-- Product Managers – Prioritize fixes by business impact.
-- Engineering Teams – Address API & authenticator stability.
-- Operations & Risk – Manage partner downtime and wallet funding errors.
-- Executives – Understand financial & customer experience risks.
