@@ -18,6 +18,8 @@ Use MECE (Mutually Exclusive, Collectively Exhaustive) to split the problem into
 - Identify failure points across the user payment journey.
 - Assess the effect of app version updates and gateway downtime during peak/off-peak hour
 - Recommend short-term actions to stabilize reliability.
+- 
+Key slides: Problem Definition → Objectives → Error Analysis → Insights → Short-term Solutions.
 
 ## 📊 Key Insights
 
@@ -32,13 +34,24 @@ View Receipt: −17.6% drop (post-payment, UX issue)
    3. API timeouts peaked at midnight & off-peak hours, not just high traffic periods.
    4. App version 3.9.6–3.9.9 showed consistent declines in success, with rising partner errors.
    4. Gateway downtime surged 0.32% → 0.72% in late August.
- 
-  ## ✅ Recommendations
 
-- Balance & Limit Alerts – Real-time notifications before payment (e.g., balance < $50).
-- UX Optimization – Simplify payment type selection flow to reduce drop-offs.
-- Authentication Fixes – Introduce Smart OTP / email OTP to reduce 3D Secure failures.
-- Gateway Reliability – Deploy backup servers to avoid single points of failure.
+  ## 📸 Dashboard & Report Preview
+<img width="1327" height="754" alt="Screenshot 2025-11-19 105849" src="https://github.com/user-attachments/assets/46b03d67-b74a-454c-82fc-4aa17fe5c274" /> 
+<img width="1332" height="759" alt="Screenshot 2025-11-19 105901" src="https://github.com/user-attachments/assets/24e2f562-d15f-412a-9177-d9f1b59c49eb" /> 
+<img width="1327" height="759" alt="Screenshot 2025-11-19 105910" src="https://github.com/user-attachments/assets/da092401-11da-40fb-a4c7-ef2fe68d0dbb" />
+<img width="1333" height="757" alt="Screenshot 2025-11-19 105919" src="https://github.com/user-attachments/assets/61e3b827-3824-4b91-a392-eb0c170a35d6" />
+<img width="1339" height="757" alt="Screenshot 2025-11-19 105929" src="https://github.com/user-attachments/assets/86e55414-8488-4d59-8679-54fd07cdfb2d" />
+<img width="1337" height="753" alt="Screenshot 2025-11-19 105938" src="https://github.com/user-attachments/assets/7e9dd044-4f39-4560-9e78-a7cbad6828d1" />
+<img width="1322" height="750" alt="Screenshot 2025-11-19 110004" src="https://github.com/user-attachments/assets/da0f35ba-c699-4944-b071-c330b6e13d3c" />
+<img width="1343" height="754" alt="Screenshot 2025-11-19 110012" src="https://github.com/user-attachments/assets/8d9bd0cb-561a-48d5-a2fb-49b26fee27dc" />
+<img width="1327" height="755" alt="Screenshot 2025-11-19 110024" src="https://github.com/user-attachments/assets/15d0035d-a763-4c7b-b749-6f0bf944ebdf" />
+ 
+  ## ✅ Short-term solution Recommendation
+
+- **Balance & Limit Alerts** – Real-time notifications before payment (e.g., balance < $50).
+- **UX Optimization** – Simplify payment type selection flow to reduce drop-offs.
+- Authentication Fixes – Introduce **Smart OTP / email OTP** to reduce 3D Secure failures.
+- Gateway Reliability – **Deploy backup servers** to avoid single points of failure.
 - App Version QA – Strengthen regression testing before release to prevent sharp declines.
 
 ## 🌍 Use Cases
@@ -54,19 +67,6 @@ View Receipt: −17.6% drop (post-payment, UX issue)
 - MECE Framework – Structured breakdown of error categories.
 - PowerPoint – Executive storytelling of findings & solutions.
 
-## 📸 Dashboard & Report Preview
-<img width="1327" height="754" alt="Screenshot 2025-11-19 105849" src="https://github.com/user-attachments/assets/46b03d67-b74a-454c-82fc-4aa17fe5c274" /> 
-<img width="1332" height="759" alt="Screenshot 2025-11-19 105901" src="https://github.com/user-attachments/assets/24e2f562-d15f-412a-9177-d9f1b59c49eb" /> 
-<img width="1327" height="759" alt="Screenshot 2025-11-19 105910" src="https://github.com/user-attachments/assets/da092401-11da-40fb-a4c7-ef2fe68d0dbb" />
-<img width="1333" height="757" alt="Screenshot 2025-11-19 105919" src="https://github.com/user-attachments/assets/61e3b827-3824-4b91-a392-eb0c170a35d6" />
-<img width="1339" height="757" alt="Screenshot 2025-11-19 105929" src="https://github.com/user-attachments/assets/86e55414-8488-4d59-8679-54fd07cdfb2d" />
-<img width="1337" height="753" alt="Screenshot 2025-11-19 105938" src="https://github.com/user-attachments/assets/7e9dd044-4f39-4560-9e78-a7cbad6828d1" />
-<img width="1322" height="750" alt="Screenshot 2025-11-19 110004" src="https://github.com/user-attachments/assets/da0f35ba-c699-4944-b071-c330b6e13d3c" />
-<img width="1343" height="754" alt="Screenshot 2025-11-19 110012" src="https://github.com/user-attachments/assets/8d9bd0cb-561a-48d5-a2fb-49b26fee27dc" />
-<img width="1327" height="755" alt="Screenshot 2025-11-19 110024" src="https://github.com/user-attachments/assets/15d0035d-a763-4c7b-b749-6f0bf944ebdf" />
 
 
 
-
-
-Key slides: Problem Definition → Objectives → Error Analysis → Insights → Short-term Solutions.
